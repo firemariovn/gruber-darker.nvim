@@ -3,7 +3,7 @@ local M = {}
 M.config = {
   transparent = false,
   bold = true,
-  underline = true,
+  underline = false,
 }
 
 M.setup = function(config)

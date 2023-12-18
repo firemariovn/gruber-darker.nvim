@@ -12,7 +12,7 @@ M.colors = {
 	bg_2 = "#453d41",
 	bg_3 = "#484848",
 	bg_4 = "#52494e",
-	red_1 = "#c73c3f",
+	red_m1 = "#c73c3f",
 	red = "#f43841",
 	red_1 = "#ff4f58",
 	green = "#73c936",
@@ -41,8 +41,9 @@ M.setup = function()
 
 		FloatBorder = { fg = colors.fg },
 
-		Cursor = { fg = colors.yellow },
+		Cursor = { bg = colors.yellow },
 		CursorLine = { bg = colors.bg_1 },
+		CursorLineNr = { fg = colors.yellow },
 
 		ColorColumn = { bg = colors.bg_1 },
 		SignColumn = { link = "Normal" },
